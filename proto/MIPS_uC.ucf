@@ -1,0 +1,31 @@
+NET "clk" LOC = "V10"; 
+NET "rst" LOC= "B8";  
+
+#UART
+NET "tx"  LOC = "N18";
+NET "rx"  LOC = "N17";
+
+#Port Programmer
+NET "port2_i<0>"  LOC = "T10";
+NET "port2_i<1>"  LOC = "T9";
+
+#PortIO
+## PONTO + 7-SEG
+NET "port1_io<0>"  LOC = "T17";
+NET "port1_io<1>"  LOC = "T18";
+NET "port1_io<2>"  LOC = "U17";
+NET "port1_io<3>"  LOC = "U18";
+NET "port1_io<4>"  LOC = "M14";
+NET "port1_io<5>"  LOC = "N14";
+NET "port1_io<6>"  LOC = "L14";
+NET "port1_io<7>"  LOC = "M13";
+## CONTROLE
+NET "port1_io<8>"  LOC = "N16";
+NET "port1_io<9>"  LOC = "N15";
+NET "port1_io<10>"  LOC = "P18";
+NET "port1_io<11>"  LOC = "P17";
+## button
+NET "port1_io<12>"  LOC = "C9";
+## LED
+NET "port1_io<15>"  LOC = "U16";
+
